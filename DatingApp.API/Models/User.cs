@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+
 namespace DatingApp.API.Models
 {
     public class User
@@ -18,6 +20,6 @@ namespace DatingApp.API.Models
         public string Interests { get; set; }
         public string City { get; set; }
         public string Country { get; set; }
-        public ICollection<Photo> Photos {get; set;}
+        public ICollection<Photo> Photos { get; set; }
     }
 }
